@@ -578,12 +578,14 @@ require('lazy').setup({
         --    https://github.com/pmizio/typescript-tools.nvim
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
-        -- ts_ls = {},
-        --
+        ts_ls = {},
+        tailwindcss = {},
+        jsonls = {},
+        eslint = {},
+        cssls = {},
+        html = {},
 
         omnisharp = {
-          capabilities = capabilities,
-
           handlers = {
             ['textDocument/definition'] = require('omnisharp_extended').definition_handler,
             ['textDocument/typeDefinition'] = require('omnisharp_extended').type_definition_handler,
