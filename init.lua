@@ -606,6 +606,8 @@ require('lazy').setup({
         cssls = {},
         html = {},
 
+        terraformls = {},
+
         omnisharp = {
           handlers = {
             ['textDocument/definition'] = require('omnisharp_extended').definition_handler,
