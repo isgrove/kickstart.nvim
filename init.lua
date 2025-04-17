@@ -111,7 +111,7 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
--- Center the screen after
+-- Center the screen after scrolling up and down
 vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Scroll down by half a screen' })
 vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Scroll up by half a screen' })
 vim.keymap.set('n', '<C-f>', '<C-f>zz', { desc = 'Scroll down a screen' })
