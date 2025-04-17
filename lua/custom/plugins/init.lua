@@ -2,4 +2,9 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return { require 'custom.plugins.gruvbox', require 'custom.plugins.treesitter-context', require 'custom.plugins.ts-autotag' }
+return {
+  require 'custom.plugins.gruvbox',
+  require 'custom.plugins.treesitter-context',
+  require 'custom.plugins.ts-autotag',
+  require 'custom.plugins.harpoon',
+}
