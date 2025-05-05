@@ -7,4 +7,5 @@ return {
   require 'custom.plugins.treesitter-context',
   require 'custom.plugins.ts-autotag',
   require 'custom.plugins.harpoon',
+  require 'custom.plugins.markdown-preview',
 }
