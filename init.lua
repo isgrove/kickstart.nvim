@@ -611,6 +611,8 @@ require('lazy').setup({
           root_dir = require('lspconfig.util').root_pattern 'ember-cli-build.js',
         },
 
+        bashls = {},
+
         terraformls = {},
 
         omnisharp = {
