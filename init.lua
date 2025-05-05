@@ -605,6 +605,11 @@ require('lazy').setup({
         eslint = {},
         cssls = {},
         html = {},
+        ember = {
+          cmd = { 'ember-language-server', '--stdio' },
+          filetypes = { 'handlebars', 'typescript', 'javascript', 'typescript.glimmer', 'javascript.glimmer' },
+          root_dir = require('lspconfig.util').root_pattern 'ember-cli-build.js',
+        },
 
         terraformls = {},
 
