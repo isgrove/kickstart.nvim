@@ -8,4 +8,5 @@ return {
   require 'custom.plugins.ts-autotag',
   require 'custom.plugins.harpoon',
   require 'custom.plugins.markdown-preview',
+  require 'custom.plugins.ai',
 }
