@@ -644,6 +644,9 @@ require('lazy').setup({
             MsBuild = {
               loadProjectsOnDemand = false,
             },
+            Sdk = {
+              IncludePrereleases = true,
+            },
           },
         },
         lua_ls = {
